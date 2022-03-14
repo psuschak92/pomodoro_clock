@@ -1,0 +1,66 @@
+@font-face {
+    font-family: digital;
+    src: url(digital-7.regular.ttf);
+}
+
+body, #root, .setting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: digital;
+}
+
+button {
+    margin-inline: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #52CC5E;
+    color: white;
+    font-family: digital;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.pomodoro-clock {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-setting {
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+.break-label, .timer-label {
+    font-size: 18px;
+}
+
+.break-length, .timer-length {
+    font-size: 20px;
+}
+
+.break-setting, .timer-setting {
+    width: 150px;
+}
+
+.timer {
+    border: 3px solid #52CC5E;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color: #52CC5E;
+}
+
+.timer-control {
+    margin-top: 15px;
+}
+
